@@ -1,0 +1,53 @@
+id,folder,file,title,type,medium,date,tags,why_it_matters
+001,00_About,about-steve.md,About Steve,doc,markdown,2026-10,about;point-of-view;process,Who I am and what I care about visually
+101,01_Creative-Coding,2026-09_silvertrace-web-drawing-toy/,Silvertrace web drawing toy,code project,HTML/CSS/JS,2026-09,code;web;generative;interactive,Newest and most complete: spec + plan + build + git history for CRCP 6330 Week 2 group studio
+102,01_Creative-Coding,2026-04_processing_red-dress-generative-overlay/,Red Dress generative overlay,code project,Processing + GLSL,2026-04,code;processing;shader;particles;fashion,Murmuration flock and sparklers driven frame by frame by a model's motion in a fashion GIF
+103,01_Creative-Coding,2026-03_processing_living-vase-particle-system.pde,The Living Vase,code,Processing,2026-03,code;processing;particles;generative,Parametric spiral halos radiating from mandala flowers
+104,01_Creative-Coding,2026-02_processing_heavenly-bodies/,Heavenly Bodies,code project,Processing,2026-02,code;processing;generative,Exoplanet system HR 8799 built with 2D arrays and nested loops
+105,01_Creative-Coding,2026-02_p5js_sacred-geometry-mandala-vortex.js,Sacred Geometry Mandala Vortex,code,p5.js,2026-02,code;p5js;geometry;generative,13-layer 3D mandala with golden ratio rotation speeds
+106,01_Creative-Coding,2026-02_processing_mandala-layers/,Mandala layers,code project,Processing,2026-02,code;processing;geometry,Layered mandala with dark-to-light palette and gold on every layer
+107,01_Creative-Coding,2026-02_processing_crystalline-prism.pde,Crystalline Prism,code,Processing,2026-02,code;processing;geometry;luxury,Luxury fashion aesthetics merged with geometric code; gallery installation feel
+108,01_Creative-Coding,2026-02_processing_crystalline-kaleidoscope.pde,Crystalline Kaleidoscope,code,Processing,2026-02,code;processing;geometry;interactive,Click-driven polygon bursts with kaleidoscope mirroring and 9 palettes
+109,01_Creative-Coding,2026-02_processing_kaleidoscope-openprocessing.pde,Crystalline Kaleidoscope (OpenProcessing version),code,Processing,2026-02,code;processing;interactive,Same sketch formatted for OpenProcessing
+110,01_Creative-Coding,2026-02_processing_editorial-generative-geometry.pde,Editorial Generative Geometry,code,Processing,2026-02,code;processing;geometry;editorial,Mid-century modern editorial design as 2D generative geometry
+111,01_Creative-Coding,2026-01_processing_self-portrait/,Generative self portrait,code project,Processing,2026-01,code;processing;geometry,Photo rebuilt as geometry; render included
+112,01_Creative-Coding,2026-01_processing_rothko-orange-and-yellow/,Rothko Orange and Yellow recreation,code project,Processing,2026-01,code;processing,Painting recreation studying soft-edged color fields
+113,01_Creative-Coding,2026-01_processing_grid-drawing/,Grid Drawing,code project,Processing,2026-01,code;processing;geometry,Early variable-grid studies; the starting point
+120,01_Creative-Coding/renders,2026-04_murmuration_v3.mp4,Murmuration,video,Processing render,2026-04,video;generative;particles,Flocking render from the Red Dress work
+121,01_Creative-Coding/renders,2026-04_hi-rez-mandala_01/07/12.png,Hi rez mandalas (3),image,Processing render (upscaled),2026-04,geometry;generative,Print-resolution mandala renders
+122,01_Creative-Coding/renders,2026-04_hi-rez-mandalas_contact-sheet.jpg,Hi rez mandala contact sheet,image,render,2026-04,geometry;generative,All 13 mandala variations at a glance
+123,01_Creative-Coding/renders,2026-02_planetary-system-pulsing-star.mp4,Planetary system,video,render,2026-02,video;generative,Motion study for Heavenly Bodies
+201,02_Brand-Campaigns/EPOCH,(4 images),EPOCH brand world,image,AI image,2026-07,brand;campaign;wellness;art-direction,Supplement brand: desert strata palette from hero jar to coastal lifestyle
+202,02_Brand-Campaigns/EPOCH/ugc-ad,2026-07_epoch_ugc-ad_master-v01.mp4,EPOCH UGC ad master,video,AI video edit,2026-07,brand;video;ugc;campaign,56s 9:16 UGC testimonial ad cut from AI talent and B-roll
+203,02_Brand-Campaigns/EPOCH/ugc-ad,2026-07_epoch_ugc-ad_cut-sheet.md,EPOCH ad cut sheet,doc,markdown,2026-07,video;ugc;process,Edit decisions: speech trims; B-roll seam covers; audio master specs
+204,02_Brand-Campaigns/EPOCH/ugc-ad,still_*.jpeg,EPOCH ad stills (3),image,AI image,2026-07,ugc;campaign,Talking head and B-roll frames
+211,02_Brand-Campaigns/LIGAND,(4 images),LIGAND brand world,image,AI image,2026-07,brand;campaign;luxury;art-direction,Amber-glass lab aesthetic; Swiss grid print ad
+221,02_Brand-Campaigns/PELAGIC,(4 images),PELAGIC brand world,image,AI image,2026-07,brand;campaign;art-direction,Ocean brand: crystal label; freediver mood; nautical chart flatlay
+231,02_Brand-Campaigns/SANTO-BRUTO,(4 images),SANTO BRUTO brand world,image,AI image,2026-07,brand;campaign;luxury;art-direction,Raw stone; gold foil; candlelit gym light
+241,02_Brand-Campaigns/LEI-WAI,2026-04_lei-wai_campaign-*.png,LEI WAI beauty campaign,image,AI image,2026-04,brand;campaign;beauty;fashion;hawaii,Lip gloss campaign hero plus 4 layout selects
+242,02_Brand-Campaigns/LEI-WAI,2026-03_lei-wai_landing-page-hero.png,LEI WAI landing page hero,image,design,2026-03,brand;beauty;hawaii,Web hero for the brand
+243,02_Brand-Campaigns/LEI-WAI,2026-02_lei-wai_lip-gloss_*.png,LEI WAI product shots (4),image,AI image,2026-02,brand;beauty;luxury,Studio white and black stone product variants
+301,03_AI-Image-Direction/fashion-editorial,2026-04_camel-coat-in-wind_vogue-inspired.png,Camel coat in wind,image,AI image,2026-04,ai-image;fashion;editorial,Vogue-inspired motion and color
+302,03_AI-Image-Direction/fashion-editorial,2026-04_floral-skull-couture.png,Floral skull couture,image,AI image,2026-04,ai-image;fashion;editorial,Maximal floral headdress and couture
+303,03_AI-Image-Direction/fashion-editorial,2026-01_red-gown-in-motion_studio.png,Red gown in motion,image,AI image,2026-01,ai-image;fashion;editorial,Editorial motion and one bold color; seed for the Red Dress code
+304,03_AI-Image-Direction/fashion-editorial,2025-12_two-models_fur-hats-winter-coats.png,Two models in fur hats,image,AI image,2025-12,ai-image;fashion;editorial,Winter editorial casting and styling
+311,03_AI-Image-Direction/leather-goods,(4 images),Leather goods,image,AI image,2026-04,ai-image;leather;luxury,Handbag hero; minimalist flatlay; intrecciato weave macros
+321,03_AI-Image-Direction/beauty-product,(3 images),Beauty product,image,AI image,2026-02 to 2026-04,ai-image;beauty;luxury,Cosmetics set; blush silk texture; editorial flatlay
+331,03_AI-Image-Direction/illustration-and-environments,(4 images),Illustration and environments,image,AI image,2025-10 to 2026-02,ai-image;hawaii;illustration;interior,Hawaiian postcard; neon island chain; cubist self portrait; patisserie interior
+401,04_3D-and-Motion,2026-05_maya_final-animation.mp4,Maya final animation,video,Maya,2026-05,3d;maya;video,Final 3D animation project
+402,04_3D-and-Motion,2026-04_maya_animation-study.mp4,Maya animation study,video,Maya,2026-04,3d;maya;video,Animation principles study
+403,04_3D-and-Motion,2026-05_unreal_lei-wai-product-viz_a/b.png,LEI WAI product viz in Unreal,image,Unreal Engine,2026-05,3d;unreal;beauty,Real-time product visualization
+404,04_3D-and-Motion,2026-03_maya_lei-wai-product-render.png,LEI WAI product render,image,Maya,2026-03,3d;maya;beauty,Modeled lip gloss product
+501,05_Style-References,style_*.jpg,Style targets (3),image,reference,,reference;editorial;art-direction,Editorial photo; concept portfolio; technical blueprint styles
+502,05_Style-References,reference_beauty-campaign-layout.jpg,Beauty campaign layout reference,image,reference,,reference;beauty;campaign,Classic drugstore beauty ad layout (other brand's work)
+503,05_Style-References,2025-10_hair-mood-board.pdf,Hair mood board,pdf,moodboard,2025-10,reference;moodboard;fashion,Hair references from my editorial career
+504,05_Style-References/vogue-japan-2017,(5 images),Vogue Japan 2017 references,image,reference,2017,reference;fashion;editorial,Other artists' published work; credits in file names
+601,06_Prompts-and-Workflows,comfyui_fashion-editorial_ipadapter.json,ComfyUI fashion editorial pipeline,workflow,ComfyUI JSON,2026-02,workflow;comfyui;fashion,SDXL + IP-Adapter style transfer for editorial images
+602,06_Prompts-and-Workflows,comfyui_pose-control_dwpose-controlnet.json,ComfyUI pose control,workflow,ComfyUI JSON,2026-03,workflow;comfyui,DWPose + ControlNet for pose-locked generation
+603,06_Prompts-and-Workflows,prompt_claude-code_gif-background-removal.txt,Claude Code prompt: GIF background removal,prompt,text,2026-04,prompting;workflow,How I brief an agent: goal; file locations; frame-perfect constraints
+604,06_Prompts-and-Workflows,script_bg-remove-batch_v2.py,Batch background removal script,code,Python,2026-04,code;workflow,Pipeline the prompt above produced
+605,06_Prompts-and-Workflows,reference_master-prompt-formula-product-cgi.pdf,Master prompt formula for product CGI,pdf,reference,2025-09,prompting;reference,Prompt structure and camera movement vocabulary
+606,06_Prompts-and-Workflows,template_design-brief_full.md,Design brief (full),template,markdown,2025-10,template;art-direction,Full intake brief for design requests
+607,06_Prompts-and-Workflows,template_design-brief_quick.md,Design brief (quick),template,markdown,2025-10,template;art-direction,One-page quick brief
+701,07_Editorial-Career,tantalum_the-bold-fantastic_cover.jpg,Tantalum cover: The Bold Fantastic,image,magazine cover,,editorial;fashion;beauty,From my time as Editor-in-Chief of Tantalum Magazine
+801,08_Design-Systems,2026-05_auteur_design-system_reverse-engineered.html,Auteur design system,web page,HTML,2026-05,design-system;brand;web;luxury,Reverse-engineered design system (CRCP 6320 Week 3): tokens; type; components

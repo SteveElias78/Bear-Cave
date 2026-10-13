@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": 100,
+      "type": "LoadImage",
+      "pos": [0, 0],
+      "size": { "0": 315, "1": 314 },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [200], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null, "slot_index": 1 }
+      ],
+      "properties": { "Node name for S&R": "LoadImage" },
+      "widgets_values": ["runway_reference.jpg", "image"]
+    },
+    {
+      "id": 101,
+      "type": "DWPreprocessor",
+      "pos": [350, 0],
+      "size": { "0": 315, "1": 150 },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        { "name": "image", "type": "IMAGE", "link": 200 }
+      ],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [201, 202], "slot_index": 0 }
+      ],
+      "properties": { "Node name for S&R": "DWPreprocessor" },
+      "widgets_values": ["yolox_l.onnx", "dw-ll_ucoco_384.onnx", "bbox", true, true, true, 512]
+    },
+    {
+      "id": 102,
+      "type": "ControlNetLoader",
+      "pos": [350, 200],
+      "size": { "0": 315, "1": 58 },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "CONTROL_NET", "type": "CONTROL_NET", "links": [203], "slot_index": 0 }
+      ],
+      "properties": { "Node name for S&R": "ControlNetLoader" },
+      "widgets_values": ["control_v11p_sd15_openpose.pth"]
+    },
+    {
+      "id": 103,
+      "type": "ControlNetApplyAdvanced",
+      "pos": [700, 0],
+      "size": { "0": 315, "1": 170 },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        { "name": "positive", "type": "CONDITIONING", "link": null },
+        { "name": "negative", "type": "CONDITIONING", "link": null },
+        { "name": "control_net", "type": "CONTROL_NET", "link": 203 },
+        { "name": "image", "type": "IMAGE", "link": 201 }
+      ],
+      "outputs": [
+        { "name": "positive", "type": "CONDITIONING", "links": [], "slot_index": 0 },
+        { "name": "negative", "type": "CONDITIONING", "links": [], "slot_index": 1 }
+      ],
+      "properties": { "Node name for S&R": "ControlNetApplyAdvanced" },
+      "widgets_values": [0.8, 0.0, 1.0]
+    },
+    {
+      "id": 104,
+      "type": "PreviewImage",
+      "pos": [700, 220],
+      "size": { "0": 210, "1": 210 },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 202 }
+      ],
+      "outputs": [],
+      "properties": { "Node name for S&R": "PreviewImage" }
+    }
+  ],
+  "links": [
+    [200, 100, 0, 101, 0, "IMAGE"],
+    [201, 101, 0, 103, 3, "IMAGE"],
+    [202, 101, 0, 104, 0, "IMAGE"],
+    [203, 102, 0, 103, 2, "CONTROL_NET"]
+  ]
+}

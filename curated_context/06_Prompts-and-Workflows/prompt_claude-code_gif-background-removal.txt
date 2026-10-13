@@ -1,0 +1,104 @@
+CLAUDE CODE PROMPT — RED DRESS BACKGROUND REMOVAL
+paste this entire block into claude code (comfy-claude) when it launches.
+─────────────────────────────────────────────────────────────────────────────
+
+You are helping with a creative computing assignment. I need you to run a
+background removal pipeline on pre-extracted GIF frames and reassemble them
+into a perfectly timed transparent GIF overlay.
+
+WHAT YOU ARE DOING:
+The red dress gif is used as a visual sandwich in a Processing sketch:
+  Layer 1: original GIF (model + gray background)
+  Layer 2: 3D generative code (spheres, toroid animation)
+  Layer 3: THIS OUTPUT — same model, background completely removed (transparent)
+
+The transparent GIF must be a frame-perfect clone of the original in every way
+(exact dimensions, exact per-frame timing) with ONLY the background removed.
+
+─── FILE LOCATIONS ───────────────────────────────────────────────────────────
+
+Source frames (raw, WITH background, already extracted from original gif):
+  E:\Hi rez creative computing files\RedDressWaves\data\frames_raw
+
+Background removal script:
+  wherever bg_remove_batch.py lives — check current directory first,
+  then check E:\Hi rez creative computing files\RedDressWaves\data\
+
+Original gif (for timing reference):
+  E:\Hi rez creative computing files\RedDressWaves\data\red_dress_loop-GIF.gif
+
+Output gif (write here when done):
+  E:\Hi rez creative computing files\RedDressWaves\data\Seed GIF with NO Background.gif
+
+Clean frame PNGs (write here during processing):
+  E:\Hi rez creative computing files\RedDressWaves\data\frames_clean
+
+─── EXACT GIF SPECS TO MATCH ─────────────────────────────────────────────────
+
+Dimensions:  800 x 482 px  (resize any frame that doesn't match)
+Frame count: 55
+Per-frame delays (ms) — must match EXACTLY, list in order:
+  [40, 40, 50, 40, 40, 40, 40, 40, 50, 40,
+   40, 40, 40, 40, 50, 40, 40, 40, 40, 40,
+   50, 40, 40, 40, 40, 40, 50, 40, 40, 40,
+   40, 40, 50, 40, 40, 40, 40, 40, 50, 40,
+   40, 40, 40, 40, 50, 40, 40, 40, 40, 40,
+   50, 40, 40, 40, 40]
+Total duration: 2290ms — verify this matches after assembly
+
+─── STEPS TO EXECUTE ─────────────────────────────────────────────────────────
+
+Step 1 — verify environment
+  Check that rembg and Pillow are installed:
+    pip show rembg Pillow
+  If missing, install:
+    pip install rembg Pillow
+
+Step 2 — check frames_raw
+  List the frames_raw folder. Confirm:
+  - it contains image files (PNG expected)
+  - there are exactly 55 files, sorted alphanumerically (frame_000.png ... frame_054.png)
+  - dimensions are 800x482 (check first and last frame)
+  Report what you find before proceeding.
+
+Step 3 — run the script
+  Run bg_remove_batch.py. If it needs path edits to match the locations above,
+  edit it first, then run. Watch for errors and report them.
+
+Step 4 — verify output
+  After the script completes:
+  - confirm the output gif exists at the OUTPUT path
+  - open it with Pillow and verify: 55 frames, 800x482, total duration 2290ms
+  - check that frame 0 has real transparency (some alpha=0 pixels in the background area)
+
+Step 5 — report
+  Tell me the output file size, confirm the frame count and total duration,
+  and flag any frames where the mask quality looked suspect (e.g. the red dress
+  being partially removed along with the gray background).
+
+─── KNOWN ISSUES TO WATCH FOR ────────────────────────────────────────────────
+
+The dress is deep red on a gray background — rembg handles this well but
+watch for:
+  - fringe/halo of gray pixels around the model's edges
+  - the red dress fabric being partially masked out (similar hue to the
+    background if auto-exposure shifts between frames)
+  - the model's hair losing detail at the edges
+
+If you see significant masking quality issues, try re-running with:
+  alpha_matting=True
+  alpha_matting_foreground_threshold=240
+  alpha_matting_background_threshold=10
+
+in the remove() call. It's slower but produces much cleaner edges on hair
+and semi-transparent fabric edges.
+
+─── DELIVERABLE ──────────────────────────────────────────────────────────────
+
+One file:  E:\Hi rez creative computing files\RedDressWaves\data\Seed GIF with NO Background.gif
+
+This file drops into the Processing sketch's data/ folder. The sketch already
+knows to look for it by that exact filename. Once it's there, layer 3 of the
+sandwich activates automatically.
+
+─────────────────────────────────────────────────────────────────────────────
