@@ -1,67 +1,67 @@
 # QUICK DESIGN BRIEF
 
-**Project:** _______________  **Date:** _______________  **Due:** _______________
+**Project:** ___  **Date:** ___  **Due:** ___
 
 ---
 
 ### THE BASICS
-**What do you need designed?** _______________
+**What do you need designed?** ___
 
-**What's it for?** _______________
+**What's it for?** ___
 
-**Who's the audience?** _______________
+**Who's the audience?** ___
 
 ---
 
 ### THE SPECIFICS
 
 **Main message/headline:**
-_______________________________________________________________________________
+___
 
 **Key points (3-5 bullets):**
-- _______________________________________________________________________________
-- _______________________________________________________________________________
-- _______________________________________________________________________________
+- ___
+- ___
+- ___
 
 **Call to action (exact words):**
-_______________________________________________________________________________
+___
 
 ---
 
 ### THE DELIVERABLES
 
 **Format:** [ ] Print [ ] Digital  
-**Size/dimensions:** _______________  
-**File type needed:** _______________
+**Size/dimensions:** ___  
+**File type needed:** ___
 
 ---
 
 ### THE REQUIREMENTS
 
-**Must include:** _______________
+**Must include:** ___
 
-**Must avoid:** _______________
+**Must avoid:** ___
 
-**Brand/style to match:** _______________
+**Brand/style to match:** ___
 
 **Assets I'm providing:**
-[ ] Logo  [ ] Copy  [ ] Photos  [ ] Other: _______________
+[ ] Logo  [ ] Copy  [ ] Photos  [ ] Other: ___
 
 ---
 
 ### THE APPROVALS
 
-**Who approves this?** _______________
+**Who approves this?** ___
 
-**First draft needed by:** _______________  
-**Final version needed by:** _______________
+**First draft needed by:** ___  
+**Final version needed by:** ___
 
 ---
 
 ### VISUAL REFERENCES
 Attach 2-3 examples of designs you LIKE (can be from anywhere - competitors, other industries, Pinterest, etc.)
 
-**Why do you like these examples?** _______________
+**Why do you like these examples?** ___
 
 ---
 
@@ -71,4 +71,4 @@ Attach 2-3 examples of designs you LIKE (can be from anywhere - competitors, oth
 - [ ] I've set realistic deadlines
 - [ ] I've attached visual references or examples
 
-**Submitted by:** _______________
+**Submitted by:** ___

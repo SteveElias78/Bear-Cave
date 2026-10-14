@@ -1,10 +1,10 @@
 # DESIGN WORK REQUEST BRIEF
 
-**Date Submitted:** _______________  
-**Project Name:** _______________  
-**Requested By:** _______________  
-**Department:** _______________  
-**Target Completion Date:** _______________
+**Date Submitted:** ___  
+**Project Name:** ___  
+**Requested By:** ___  
+**Department:** ___  
+**Target Completion Date:** ___
 
 ---
 
@@ -16,13 +16,13 @@
 - [ ] QR code design/implementation
 - [ ] Presentation materials
 - [ ] Signage
-- [ ] Other: _______________
+- [ ] Other: ___
 
 **In 2-3 sentences, describe what you need designed:**
 
-_______________________________________________________________________________
-_______________________________________________________________________________
-_______________________________________________________________________________
+___
+___
+___
 
 ---
 
@@ -33,15 +33,15 @@ _______________________________________________________________________________
 - [ ] Promote/advertise
 - [ ] Drive action (registration, purchase, etc.)
 - [ ] Build awareness
-- [ ] Other: _______________
+- [ ] Other: ___
 
 **What specific action do you want the audience to take after seeing this?**
 
-_______________________________________________________________________________
+___
 
 **How will success be measured?**
 
-_______________________________________________________________________________
+___
 
 ---
 
@@ -49,7 +49,7 @@ _______________________________________________________________________________
 
 **Who is the PRIMARY target audience?** (Be specific - age, role, background, etc.)
 
-_______________________________________________________________________________
+___
 
 **What does this audience already know about this topic/product/service?**
 - [ ] Nothing - complete beginners
@@ -64,7 +64,7 @@ _______________________________________________________________________________
 - [ ] Creative/innovative
 - [ ] Educational/informative
 - [ ] Urgent/action-oriented
-- [ ] Other: _______________
+- [ ] Other: ___
 
 ---
 
@@ -72,24 +72,24 @@ _______________________________________________________________________________
 
 **Headline/Main Message** (What's the ONE thing you want people to remember?)
 
-_______________________________________________________________________________
+___
 
 **Key Points to Include** (List 3-5 main messages in order of priority)
-1. _______________________________________________________________________________
-2. _______________________________________________________________________________
-3. _______________________________________________________________________________
-4. _______________________________________________________________________________
-5. _______________________________________________________________________________
+1. ___
+2. ___
+3. ___
+4. ___
+5. ___
 
 **Body Copy/Supporting Text** (Paste or attach actual text if available)
 - [ ] Copy is ready and attached
-- [ ] Copy will be provided by: _______________ (date)
+- [ ] Copy will be provided by: ___ (date)
 - [ ] Need help writing copy
 - [ ] Copy is minimal/not needed
 
 **Call to Action** (What exact words/phrase should prompt action?)
 
-_______________________________________________________________________________
+___
 
 ---
 
@@ -97,13 +97,13 @@ _______________________________________________________________________________
 
 **What should the QR code link to?**
 
-URL: _______________________________________________________________________________
+URL: ___
 
 **Where will the QR code be used?**
-- [ ] Print materials (specify size): _______________
+- [ ] Print materials (specify size): ___
 - [ ] Digital displays
 - [ ] Signage
-- [ ] Other: _______________
+- [ ] Other: ___
 
 **Desired QR code style:**
 - [ ] Standard black & white
@@ -116,13 +116,13 @@ URL: ___________________________________________________________________________
 ## 6. VISUAL DIRECTION
 
 **Do you have existing brand guidelines this must follow?**
-- [ ] Yes - attached/linked here: _______________
+- [ ] Yes - attached/linked here: ___
 - [ ] Yes - use [specific brand/department standards]
 - [ ] No - open to creative direction
 
 **Color preferences/requirements:**
-- [ ] Must use specific brand colors: _______________
-- [ ] General palette preference: _______________
+- [ ] Must use specific brand colors: ___
+- [ ] General palette preference: ___
 - [ ] No preference
 
 **Are there existing materials this should match or complement?**
@@ -142,22 +142,22 @@ URL: ___________________________________________________________________________
 ## 7. SPECIFICATIONS & REQUIREMENTS
 
 **Format/Deliverable Type:**
-- [ ] Print - Size: _______________ Quantity: _______________
-- [ ] Digital - Dimensions: _______________ Format: _______________
+- [ ] Print - Size: ___ Quantity: ___
+- [ ] Digital - Dimensions: ___ Format: ___
 - [ ] Both
 
 **File format needed:**
 - [ ] PDF (print-ready)
 - [ ] PDF (digital)
 - [ ] JPG/PNG
-- [ ] Editable source files (specify software if known): _______________
+- [ ] Editable source files (specify software if known): ___
 - [ ] Not sure - designer recommend
 
 **Printing/Production notes:**
 - [ ] Professional printing
 - [ ] In-house printing
 - [ ] Digital only
-- [ ] Other: _______________
+- [ ] Other: ___
 
 ---
 
@@ -165,13 +165,13 @@ URL: ___________________________________________________________________________
 
 **What assets are you providing?**
 - [ ] Logo files (attached)
-- [ ] Photos (attached or to be provided by: _______________)
+- [ ] Photos (attached or to be provided by: ___)
 - [ ] Graphics/illustrations (attached)
 - [ ] Data/statistics (attached)
 - [ ] None - designer to source/create
 
 **Photo requirements:**
-- [ ] Specific photos required (describe): _______________
+- [ ] Specific photos required (describe): ___
 - [ ] Stock photos acceptable
 - [ ] Custom photography needed
 - [ ] No photos needed
@@ -181,11 +181,11 @@ URL: ___________________________________________________________________________
 ## 9. APPROVALS & STAKEHOLDERS
 
 **Who needs to approve this design?** (List names and roles)
-1. _______________________________________________________________________________
-2. _______________________________________________________________________________
-3. _______________________________________________________________________________
+1. ___
+2. ___
+3. ___
 
-**Decision maker (final approval authority):** _______________
+**Decision maker (final approval authority):** ___
 
 **How many rounds of revisions are expected/budgeted?**
 - [ ] One round of minor tweaks
@@ -205,35 +205,35 @@ URL: ___________________________________________________________________________
 
 **Mandatory elements that MUST be included:**
 
-_______________________________________________________________________________
-_______________________________________________________________________________
+___
+___
 
 **Things to absolutely AVOID:**
 
-_______________________________________________________________________________
-_______________________________________________________________________________
+___
+___
 
 **Budget considerations:** (if applicable)
 
-_______________________________________________________________________________
+___
 
 ---
 
 ## 11. TIMELINE
 
-**When do you need the FIRST DRAFT?** _______________
+**When do you need the FIRST DRAFT?** ___
 
-**When is the FINAL version needed?** _______________
+**When is the FINAL version needed?** ___
 
 **Are there any hard deadlines or time-sensitive events tied to this?**
 
-_______________________________________________________________________________
+___
 
 **Preferred review/feedback timeline:**
 - [ ] 24-hour turnaround for feedback
 - [ ] 48-hour turnaround for feedback
 - [ ] One week turnaround for feedback
-- [ ] Other: _______________
+- [ ] Other: ___
 
 ---
 
@@ -241,14 +241,14 @@ _______________________________________________________________________________
 
 **Anything else the designer should know?**
 
-_______________________________________________________________________________
-_______________________________________________________________________________
-_______________________________________________________________________________
+___
+___
+___
 
 **Questions for the designer before starting?**
 
-_______________________________________________________________________________
-_______________________________________________________________________________
+___
+___
 
 ---
 
@@ -265,9 +265,9 @@ Before submitting this brief, have you:
 
 ---
 
-**Submitted by:** _______________  
-**Designer assigned:** _______________  
-**Kickoff meeting scheduled:** _______________
+**Submitted by:** ___  
+**Designer assigned:** ___  
+**Kickoff meeting scheduled:** ___
 
 ---
 
@@ -276,9 +276,9 @@ Before submitting this brief, have you:
 **Project accepted:** [ ] Yes [ ] Needs clarification  
 **Clarifications needed:**
 
-_______________________________________________________________________________
+___
 
-**Estimated hours:** _______________  
+**Estimated hours:** ___  
 **Notes:**
 
-_______________________________________________________________________________
+___
