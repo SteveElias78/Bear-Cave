@@ -172,11 +172,11 @@ The header comments from every sketch and script in this folder, in my own words
 >  The star's corona is drawn separately in the main sketch
 >  as a tight ellipse, Body.draw() skips the star glow
 >  to prevent the massive cream blob that was covering the belt.
-> ── attract ──────────────────────────────────────────────
-> ── update ───────────────────────────────────────────────
+> ── attract ───
+> ── update ───
 > Only integrates velocity, pos is set parametrically
 > pos.add(vel) , omitted, parametric positioning owns pos
-> ── draw ─────────────────────────────────────────────────
+> ── draw ───
 > Star (mass >= 1000), skip draw entirely here.
 > The main sketch draws the corona as a tight PERSP-correct
 > ellipse that stays inside the belt boundary.
@@ -204,13 +204,13 @@ The header comments from every sketch and script in this folder, in my own words
 >    4. comet ejections   , debris flung from both rings
 >    5. background stars  , float[] twinkle overlay on GIF stars
 >  plus a Dyson sphere particle cage because why not!
-> ── measured geometry ────────────────────────────────────────
+> ── measured geometry ───
 > PERSP is the Y compression from the 35° viewing angle.
 > belt ellipse measured separately, different orbital radius
 > means different foreshortening, can't just derive it from PERSP.
 > Kuiper ring centered at r=510-580 to sit on the GIF's painted band.
 > ── physics, NOT real G, tuned for pixel-scale aesthetics ──
-> ── n-body: Shiffman Ch.2 structure ─────────────────────────
+> ── n-body: Shiffman Ch.2 structure ───
 > bodies[0]=star, [1-4]=planets. pure n-body is too chaotic at
 
 ## `01_Creative-Coding/2026-02_processing_heavenly-bodies/poly.pde`
@@ -444,17 +444,17 @@ The header comments from every sketch and script in this folder, in my own words
 
 ## `01_Creative-Coding/2026-09_silvertrace-web-drawing-toy/sketch.js`
 
-> --- DOM handles ---------------------------------------------------------
-> --- Tuning --------------------------------------------------------------
+> --- DOM handles ---
+> --- Tuning ---
 > Below this much movement in a frame we do not record anything. It keeps
-> --- State ---------------------------------------------------------------
+> --- State ---
 > Where the stylus actually is, and where it is being pulled toward.
 > Both in CSS pixels relative to the screen element.
 > Every segment ever drawn. { ax, ay, bx, by, w } with a/b normalized 0..1
 > and w in CSS pixels.
 > Measured size of the screen element in CSS pixels. Kept in a variable
 > Read the line color out of the palette so CSS stays the single source of
-> --- Sizing --------------------------------------------------------------
+> --- Sizing ---
 > Nothing to do if the box did not actually change size (ResizeObserver can
 > fire for other reasons, and rebuilding is not free).
 > Work in CSS pixels from here on; the DPR scale is baked into the transform.
@@ -462,20 +462,20 @@ The header comments from every sketch and script in this folder, in my own words
 > not jump across the picture on the next frame.
 > First run: the stylus starts dead center, like the real toy.
 > Move a CSS-pixel point from the old screen size to the new one.
-> --- Painting ------------------------------------------------------------
+> --- Painting ---
 
 ## `06_Prompts-and-Workflows/script_bg-remove-batch_v2.py`
 
-> ── PATHS (edit these if you move files) ────────────────────────────
-> ── EXACT PER-FRAME TIMING from the original gif ─────────────────────
+> ── PATHS (edit these if you move files) ───
+> ── EXACT PER-FRAME TIMING from the original gif ───
 > extracted from the real file, 55 frames, mix of 40ms and 50ms
 > this is the source of truth, the transparent gif MUST match this
 > exactly or the sandwich layers will drift out of sync
-> ── VERIFY TIMING against original gif ──────────────────────────────
-> ── FIND FRAMES ──────────────────────────────────────────────────────
+> ── VERIFY TIMING against original gif ───
+> ── FIND FRAMES ───
 > collect PNGs, JPGs, or any image type, sorted alphanumerically
 > which preserves the frame order (frame_000.png, frame_001.png ...)
-> ── MAIN ─────────────────────────────────────────────────────────────
+> ── MAIN ───
 > verify paths
 > verify timing
 > find source frames
