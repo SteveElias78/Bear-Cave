@@ -50,7 +50,8 @@ Starting point for my Agent enhancements.
 This is the repo-ready version of my curated context, used for the CRCP 6330 Context Curation exercise.
 
 * Images are downscaled to 1600 px on the long side to keep the repo light and the image-captioning step fast
-* Left out of this copy: videos, GIFs, the three print-resolution mandala renders and the Vogue Japan reference images (other artists' work)
+* Left out of this copy: most videos, GIFs and the three print-resolution mandala renders. The two Maya animations are included for the showcase page.
+* The Vogue Japan reference images are other artists' published work. They are watermarked "Reference only" with credits and are not my work.
 * The course scripts only read `.txt`, `.md`, `.pdf`, `.png` and `.jpg`. So this copy adds two text files an AI can read directly:
   * `INDEX.md`: the full index in Markdown
   * `00_About/code-digest.md`: the header comments from every sketch and script, in my own words
