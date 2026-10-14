@@ -56,4 +56,4 @@ B, Gemini with the whole folder. A broad synthesis question needs evidence from 
 
 ## Screenshots
 
-See `screenshots/`.
+See `screenshots/`. Runs B and the two index crashes are the original captures. Runs A, C and D were rerun view-only (no `--results`) to capture the terminal, so their wording differs slightly from the recorded answers in `results/`; the stats above come from the recorded results files.
